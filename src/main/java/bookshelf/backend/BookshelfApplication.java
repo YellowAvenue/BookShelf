@@ -1,4 +1,4 @@
-package bookshelf.bookshelf;
+package bookshelf.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
