@@ -1,0 +1,8 @@
+Меню:
+https://html5book.ru/gorizontalnoe-menu/#part2
+Список товаров:
+https://m.habr.com/ru/post/319280/
+Всплывающее окно:
+http://cleanjs.ru/articles/krasivye-vsplyvayushhie-dialogovye-okna.html
+Меню для кнопки купить:
+https://html5css.ru/howto/howto_css_signup_form.php
