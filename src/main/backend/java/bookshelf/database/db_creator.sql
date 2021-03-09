@@ -1,10 +1,4 @@
-drop schema if exists bookshelf CASCADE;
-
---Создаём схему
-create schema bookshelf;
---Подтверждаем транзакцию
-
-create table bookshelf.product(
+create table product(
      id int not null PRIMARY KEY,
      name varchar(100),
      cost int,
@@ -13,4 +7,4 @@ create table bookshelf.product(
      maker_id int,
      product_type int
 );
-commit;
+
