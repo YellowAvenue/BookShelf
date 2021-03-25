@@ -1,3 +1,4 @@
+//Всплывающее окно
 ;(function() {
 
 	var overlay	= document.querySelector('.overlay'),
