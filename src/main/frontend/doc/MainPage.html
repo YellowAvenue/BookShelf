@@ -15,18 +15,26 @@
         {
             alert("Спасибо за заказ! Мы скоро перезвоним вам")
         }
+        function complete_registration(){
+            alert("Вы зарегестрированы. Добро пожаловать в наш клуб.")
+        }
     </script>
 </head>
 <body class = "lock">
 <header>
-    <img class="user-photo" src="../img/UserPhoto.png" alt="UserPhoto">
-<!--    <button type="button" class="btn btn-dark" style="color: #feb386"-->
-<!--            data-modal >Войти</button>-->
-<!--    <button type="button" class="btn btn-dark" style="color: #feb386"-->
-<!--            data-modal >Войти</button>-->
+    <div class="user-block">
+        <button type="button"
+                class="btn user-button"
+                style="background-color: #feb386; color: white;"
+                data-modal=signin>Войти</button>
+        <button type="button"
+                class="btn user-button"
+                style="background-color: #feb386; color: white;"
+                data-modal="registration">Регистрация</button>
+        <img src="../img/UserPhoto.png" alt="UserPhoto">
+    </div>
         <div class = "title">Bookshelf</div>
         <div class="underTitle">Интернет-магазин</div>
-
         <div>
             <ul class="menu-main">
                 <li><a href="MainPage.html" class="current" style="text-decoration: none;"> Главное</a></li>
@@ -405,23 +413,25 @@
         <div class="container">
             <h1>Купить сейчас</h1>
             <p>Заполните данные и через несколько минут вам перезвонит наш менеджер для подтверждения заказа.</p>
-            <hr>
+<!--            <hr>-->
             <label><b>ФИО:</b></label>
             <br>
             <input type="text"
                    placeholder="Иванов Иван Иванович"
                    pattern="[А-яа-я]+[ ][А-яа-я]+[ ][А-яа-я]+"
                    title="Введите кириллицой имя фамилию отчество разделяя слова пробелами."
-                   required="">
+                   required=""
+                   class="input-field">
             <br>
-            <label style="text-align: center;"><b>Мобильный телефон:</b></label>
+            <label><b>Мобильный телефон:</b></label>
             <br>
             <input type="tel"
                    placeholder="+79104479731"
                    pattern="[\+]?[0-9]{11}"
-                   required="">
+                   required=""
+                   class="input-field">
             <br>
-            <div class="clearfix" style="padding-top: 10px;">
+            <div class="clearfix" style="padding-top: 20px;">
                 <button type="reset"
                         class="btn btn-dark"
                         title = "Нажмите, чтобы очистить все поля"
@@ -434,6 +444,137 @@
     </form>
 </div>
 
+<!-- Модальное окно входа -->
+<div>
+    <div class="overlay" data-close=""></div>
+    <div id="signin" class="dlg-modal">
+        <form name = "contact_form" onsubmit="return validate_form ( );">
+            <div class="container">
+                <h1 style="text-align: center">Вход</h1>
+<!--                <hr>-->
+                <label style="padding: 10px; font-size: x-large;"><b>Email:</b></label>
+                <br>
+                <input type="email"
+                       placeholder="ilovebooks@gmail.com"
+                       title="Введите email к которому привязан ваш аккаунт"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Пароль:</b></label>
+                <br>
+                <input type="password"
+                       placeholder="password"
+                       required=""
+                       class="input-field">
+                <br>
+                <div class="clearfix" style="padding-top: 20px;">
+                    <button type="reset"
+                            class="btn btn-dark"
+                            title = "Нажмите, чтобы очистить все поля"
+                            style="color:#feb386;">Cброс</button>
+                    <button type = "submit" class="btn btn-dark"
+                            title = "Нажмите, чтобы подтвердить свои данные"
+                            style="color:#feb386;">Купить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<!-- Модальное окно регистрации -->
+<div>
+    <div class="overlay" data-close=""></div>
+    <div id="registration" class="dlg-modal" >
+        <form name = "registration" onsubmit="return complete_registration();">
+            <div class="container" >
+                <h1 style="text-align: center">Регистрация</h1>
+                <!--                <hr>-->
+                <label style="padding: 10px; font-size: x-large;"><b>ФИО:</b></label>
+                <br>
+                <input type="text"
+                       placeholder="Иванов Иван Иванович"
+                       pattern="[А-яа-я]+[ ][А-яа-я]+[ ][А-яа-я]+"
+                       title="Введите кириллицой имя фамилию отчество разделяя слова пробелами."
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Возраст</b></label>
+                <br>
+                <input type="text"
+                       placeholder="19"
+                       pattern="^(?:1[01][0-9]|120|1[4-9]|[2-9][0-9])$"
+                       required=""
+                       title="Введите возраст от 14 до 120"
+                       class="input-field">
+                <br>
+                <label><b>Номер телефона</b></label>
+                <br>
+                <input type="tel"
+                       placeholder="+79104479731"
+                       pattern="[\+]?[0-9]{11}"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Страна</b></label>
+                <br>
+                <input type="text"
+                       placeholder="Россия"
+                       pattern="[А-яа-я]+"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Город</b></label>
+                <br>
+                <input type="text"
+                       placeholder="Москва"
+                       pattern="[А-яа-я]+"
+                       required=""
+                       class="input-field">
+                <label><b>Улица</b></label>
+                <br>
+                <input type="text"
+                       placeholder="Книжная"
+                       pattern="[А-яа-я]+"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Дом</b></label>
+                <br>
+                <input type="text"
+                       placeholder="54"
+                       pattern="[0-9]+"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Квартира</b></label>
+                <br>
+                <input type="text"
+                       placeholder="33"
+                       pattern="[0-9]+"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Корпус/Строение (Если нет, оставьте пустым)</b></label>
+                <br>
+                <input type="text"
+                       placeholder="11"
+                       pattern="[0-9]+"
+                       class="input-field">
+                <br>
+                <div class="clearfix" style="padding-top: 20px;">
+                    <button type="reset"
+                            class="btn btn-dark"
+                            title = "Нажмите, чтобы очистить все поля"
+                            style="color:#feb386;margin-bottom: 15px;">Cброс</button>
+                    <button type = "submit" class="btn btn-dark"
+                            title = "Нажмите, чтобы подтвердить свои данные"
+                            style="color:#feb386; margin-bottom: 15px;">Купить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
 
 
 <!--JavaScript-->
