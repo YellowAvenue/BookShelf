@@ -20,8 +20,14 @@
 <body class = "lock">
 <header>
     <div class="user-block">
-        <button type="button" class="btn user-button" style="background-color: #feb386; color: white" >Войти</button>
-        <button type="button" class="btn user-button" style="background-color: #feb386; color: white">Регистрация</button>
+        <button type="button"
+                class="btn user-button"
+                style="background-color: #feb386; color: white;"
+                data-modal=signin>Войти</button>
+        <button type="button"
+                class="btn user-button"
+                style="background-color: #feb386; color: white;"
+                data-modal="">Регистрация</button>
         <img src="../img/UserPhoto.png" alt="UserPhoto">
     </div>
         <div class = "title">Bookshelf</div>
@@ -404,7 +410,7 @@
         <div class="container">
             <h1>Купить сейчас</h1>
             <p>Заполните данные и через несколько минут вам перезвонит наш менеджер для подтверждения заказа.</p>
-            <hr>
+<!--            <hr>-->
             <label><b>ФИО:</b></label>
             <br>
             <input type="text"
@@ -422,7 +428,7 @@
                    required=""
                    class="input-field">
             <br>
-            <div class="clearfix" style="padding-top: 10px;">
+            <div class="clearfix" style="padding-top: 20px;">
                 <button type="reset"
                         class="btn btn-dark"
                         title = "Нажмите, чтобы очистить все поля"
@@ -433,6 +439,43 @@
             </div>
         </div>
     </form>
+</div>
+
+<!-- Модальное окно входа -->
+<div>
+    <div class="overlay" data-close=""></div>
+    <div id="signin" class="dlg-modal">
+        <form name = "contact_form" onsubmit="return validate_form ( );">
+            <div class="container">
+                <h1 style="text-align: center">Вход</h1>
+<!--                <hr>-->
+                <label style="padding: 10px; font-size: x-large;"><b>Email:</b></label>
+                <br>
+                <input type="email"
+                       placeholder="ilovebooks@gmail.com"
+                       title="Введите email к которому привязан ваш аккаунт"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Пароль:</b></label>
+                <br>
+                <input type="password"
+                       placeholder="password"
+                       required=""
+                       class="input-field">
+                <br>
+                <div class="clearfix" style="padding-top: 20px;">
+                    <button type="reset"
+                            class="btn btn-dark"
+                            title = "Нажмите, чтобы очистить все поля"
+                            style="color:#feb386;">Cброс</button>
+                    <button type = "submit" class="btn btn-dark"
+                            title = "Нажмите, чтобы подтвердить свои данные"
+                            style="color:#feb386;">Купить</button>
+                </div>
+            </div>
+        </form>
+    </div>
 </div>
 
 

@@ -90,8 +90,16 @@
 
 .input-field{
 	height:50px;
-	width: 400px;
+	width: 700px;
 	border-radius: 20px;
+	font-size: large;
+	text-align: justify;
+	text-indent: 10px;
+}
+
+.dlg-modal label{
+	padding: 10px;
+	font-size: x-large;
 }
 
 /* animation */
