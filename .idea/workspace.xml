@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/Head.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/css/Head.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/popup-window.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/css/popup-window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/Classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/doc/Classic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/doc/MainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/School.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/doc/School.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/Stationery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/doc/Stationery.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

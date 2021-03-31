@@ -22,8 +22,8 @@
 }
 
 .dlg-modal {
-	width: 576px;
-	height: 400px;
+	width: 800px;
+	height: 556px;
 	opacity: 0;
 	overflow: auto;
 	visibility: hidden;
@@ -34,9 +34,9 @@
 	z-index: 130;
 	margin-left: -288px;
 	padding: 20px 36px;
-	background: #ffb486;
+	background: whitesmoke;
 	-webkit-border-radius: 6px;
-	border-radius: 6px;
+	border-radius: 50px;
 	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.85);
 	box-shadow: 0 0 20px rgba(0,0,0,0.85);
 	filter: alpha(opacity=0);
@@ -88,6 +88,12 @@
 	transform: rotate(90deg);
 }
 
+.input-field{
+	height:50px;
+	width: 400px;
+	border-radius: 20px;
+}
+
 /* animation */
 .fadeIn, .fadeOut {
 	-webkit-animation-duration: 0.4s;
@@ -120,7 +126,7 @@
 	opacity: 0;
 	visibility: hidden;}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 	.modal-outer {
 		width: 620px;
 		min-height: auto;
