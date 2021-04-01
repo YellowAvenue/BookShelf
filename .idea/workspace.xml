@@ -6,16 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/doc/AboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/Classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/doc/Classic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/doc/MainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/School.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/doc/School.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/Stationery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/doc/Stationery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/backend/java/bookshelf/BookshelfApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/BookshelfApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -49,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -110,6 +115,9 @@
       <workItem from="1616666656880" duration="8668000" />
       <workItem from="1616703076150" duration="922000" />
       <workItem from="1617204876073" duration="6215000" />
+      <workItem from="1617225067952" duration="594000" />
+      <workItem from="1617269818604" duration="368000" />
+      <workItem from="1617271010859" duration="6292000" />
     </task>
     <task id="LOCAL-00001" summary="create database script">
       <created>1614948171482</created>
