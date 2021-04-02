@@ -2,5 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/backend/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/Scripts/makers.sql" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/Scripts/product.sql" charset="windows-1251" />
   </component>
 </project>
