@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Scripts/product.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Scripts/product.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +72,17 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BookshelfApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookshelfApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bookshelf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="bookshelf.BookshelfApplication" />
@@ -115,7 +124,13 @@
       <workItem from="1617269818604" duration="368000" />
       <workItem from="1617271010859" duration="10043000" />
       <workItem from="1617346807841" duration="24000" />
-      <workItem from="1617366990937" duration="1959000" />
+      <workItem from="1617366990937" duration="3320000" />
+      <workItem from="1617473984902" duration="243000" />
+      <workItem from="1617474420598" duration="2376000" />
+      <workItem from="1617564394068" duration="1331000" />
+      <workItem from="1617613850046" duration="205000" />
+      <workItem from="1617627621927" duration="532000" />
+      <workItem from="1617874273751" duration="1286000" />
     </task>
     <task id="LOCAL-00001" summary="create database script">
       <created>1614948171482</created>
