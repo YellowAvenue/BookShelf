@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
->>>>>>> 5e8bd53 (merge with dev)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +57,6 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\Devops\BookShelf\src\main\resources\Scripts" />
       <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\Devops\temp\BookShelf\src\main\backend\java\bookshelf\database" />
       <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\Devops\temp\BookShelf\src\main\backend" />
     </key>
@@ -126,19 +120,7 @@
       <workItem from="1617204876073" duration="6215000" />
       <workItem from="1617225067952" duration="594000" />
       <workItem from="1617269818604" duration="368000" />
-<<<<<<< HEAD
-      <workItem from="1617271010859" duration="10043000" />
-      <workItem from="1617346807841" duration="24000" />
-      <workItem from="1617366990937" duration="3320000" />
-      <workItem from="1617473984902" duration="243000" />
-      <workItem from="1617474420598" duration="2376000" />
-      <workItem from="1617564394068" duration="1331000" />
-      <workItem from="1617613850046" duration="205000" />
-      <workItem from="1617627621927" duration="532000" />
-      <workItem from="1617874273751" duration="1286000" />
-=======
       <workItem from="1617271010859" duration="10344000" />
->>>>>>> 5e8bd53 (merge with dev)
     </task>
     <task id="LOCAL-00001" summary="create database script">
       <created>1614948171482</created>
@@ -171,7 +153,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/dev" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
