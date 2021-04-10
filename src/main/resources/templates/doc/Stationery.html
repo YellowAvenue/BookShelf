@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+
+<html lang="en ru" xmlns:data-create="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookshelf</title>
+    <link rel="icon" href="../../static/img/FavIcon.png" type="image/x-icon">
+    <link href="../../static/css/Head.css" rel="stylesheet" type="text/css">
+    <link href="../../static/css/Menu.css" rel="stylesheet" type="text/css">
+    <link href = "../../static/css/Section.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css" >
+    <link href="../../static/css/popup-window.css" rel="stylesheet">
+    <script type="text/javascript">
+        function validate_form ( )
+        {
+            alert("Спасибо за заказ! Мы скоро перезвоним вам")
+        }
+        function complete_registration(){
+            alert("Вы зарегестрированы. Добро пожаловать в наш клуб.")
+        }
+    </script>
+</head>
+<body class = "lock">
+<header>
+    <div class="user-block">
+        <button type="button"
+                class="btn user-button"
+                style="background-color: #feb386; color: white;"
+                data-modal=signin>Войти</button>
+        <button type="button"
+                class="btn user-button"
+                style="background-color: #feb386; color: white;"
+                data-modal="registration">Регистрация</button>
+        <img src="../../static/img/UserPhoto.png" alt="UserPhoto">
+    </div>
+    <div class = "title">Bookshelf</div>
+    <div class="underTitle">Интернет-магазин</div>
+    <div>
+        <ul class="menu-main">
+            <li><a href="MainPage.html" style="text-decoration: none;"> Главное</a></li>
+            <li><a href="Classic.html" style="text-decoration: none;">Классика</a></li>
+            <li><a href="Stationery.html" class="current" style="text-decoration: none;">Канцтовары</a></li>
+            <li><a href="School.html" style="text-decoration: none;">К школе</a></li>
+            <li><a href="AboutUs.html" style="text-decoration: none;">О нас</a></li>
+        </ul>
+    </div>
+</header>
+<!-- Хорошие чернила - залог успеха! -->
+<div class="book-block">
+    <h2 class="block-title">Хорошие чернила - залог успеха!</h2>
+    <div class = "delimetr"></div>
+    <div class="container" style="padding-top: 40px;">
+
+        <!--Карточки-->
+
+        <div class="row">
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/PenPresto.jpg" alt="PenPresto.jpg">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Ручка гелевая<br>"Presto"</h4>
+                        <h6>Производитель: MAZARI</h6>
+                        <p class="card-text">Ручка гелевая со стираемыми чернилами.</p>
+                        <h6>Цена: 89 руб.</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_PenPresto.jpg">Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy">Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/Pen2.jpg" alt="Pen2.jpg">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Ручка шариковая "Slider Edge XB"</h4>
+                        <h6>Производитель: Schneider</h6>
+                        <p class="card-text">Ручка шариковая Schneider "Slider Edge XB" черная</p>
+                        <h6>Цена: 137 <strike>171</strike>руб</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_Pen2.jpg">Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy">Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/PenMCGold.jpg" alt="PenMCGold.jpg">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Ручка шариковая "MC Gold"</h4>
+                        <h6>Производитель: MunHwa</h6>
+                        <p class="card-text">Ручка шариковая MunHwa "MC Gold" синяя</p>
+                        <h6>Цена: 77 руб.</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_PenMCGold.jpg">Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy">Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/PenInkGlide.jpg" alt="PenInkGlide.jpg">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Ручка шариковая "InkGlide 100 Icy"</h4>
+                        <h6>Производитель: Luxor</h6>
+                        <p class="card-text">Ручка шариковая Luxor "InkGlide 100 Icy" черная</p>
+                        <h6>Цена: 25 <strike>31</strike> руб.</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_PenInkGlide" >Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy" >Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Набор чертёжника-->
+<div class="book-block">
+    <h2 class="block-title">Набор чертёжника</h2>
+    <div class = "delimetr"></div>
+    <div class="container" style="padding-top: 40px;">
+        <!--Карточки-->
+        <div class="row">
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/Cherchenie1.jpg" alt="Cherchenie1.jpg">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Набор для черчения малый</h4>
+                        <h6>Производитель: СТАММ</h6>
+                        <p class="card-text">Набор для черчения малый, цветной (в ассортименте)</p>
+                        <h6>Цена: 72 руб.</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_Cherchenie1">Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy">Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/Cherhenie2.jpg" alt="Cherchenie2.jpg">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Готовальня "Mars" (3 предмета)</h4>
+                        <h6>Производитель: Staedtler</h6>
+                        <p class="card-text">Циркуль с наконечником для ровного построения.</p>
+                        <h6>Цена: 1301 руб</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_Cherchenie2">Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy">Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/Cherchenie3.jpg" alt="Cherchenie3.jpg">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Набор чертежный Geometric</h4>
+                        <h6>Производитель: Maped </h6>
+                        <p class="card-text">Набор чертежный из 3 предметов MAPED для левши.</p>
+                        <h6>Цена: 282 руб.</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_Cherchenie3">Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy">Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/Cherchenie4.png" alt="Cherchenie4.png">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Готовальня 4 предмета Botti</h4>
+                        <h6>Производитель: Botti</h6>
+                        <p class="card-text">Набор чертежных инструментов в коробке.</p>
+                        <h6>Цена: 542 руб.</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_Cherchenie4" >Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy" >Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Тетради на все сулчаи жизни-->
+<div class="book-block">
+    <h2 class="block-title">Тетради на все случаи жизни</h2>
+    <div class = "delimetr"></div>
+    <div class="container" style="padding-top: 40px;">
+        <!--Карточки-->
+        <div class="row">
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/Copybook1.jpg" alt="Copybook1.jpg">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Блокнот 100 листов, А5</h4>
+                        <h6>Производитель: АппликА</h6>
+                        <p class="card-text">Блокнот на гребне,100 листов, формат А5, клетка, плотность 60 гр/м2.</p>
+                        <h6>Цена: 86 руб.</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_Copybook1">Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy">Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/Copybook2.jpg" alt="Copybook2.jpg">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Тетрадь 48 листов, Веселые корги</h4>
+                        <h6>Производитель: АппликА</h6>
+                        <p class="card-text">Тетрадь общая, 48 листов, формат А5, клетка, плотность 60 гр/м2.</p>
+                        <h6>Цена: 33 руб</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_Copybook2">Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy">Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/Copybook3.jpg"
+                         alt="Copybook3.jpg">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Тетрадь школьная "Люкс", 12 листов</h4>
+                        <h5>Производство: Альт</h5>
+                        <p class="card-text">Тетрадь школьная "Люкс", 12 листов, клетка, зеленый. Формат: А5+</p>
+                        <h6>Цена: 21 руб.</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_Copybook3">Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy">Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
+                    <!-- Изображение -->
+                    <img class="card-img-top imgSize" src="../../static/img/Books/Stationery/Copybook4.png" alt="Copybook4.png">
+                    <!-- Текстовый контент -->
+                    <div class="card-body" style="padding: 0.7rem;">
+                        <h4 class="card-title" style="margin-bottom:.5rem">Тетрадь 80 листов, А4, линия</h4>
+                        <h6>Производитель: Хатбер</h6>
+                        <p class="card-text">Тетрадь А4 формата 80 листов.Обложка: мелованный картон.</p>
+                        <h6>Цена: 149 руб.</h6>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_Copybook4" >Подробнее</button>
+                        <button type="button" class="btn btn-dark" style="color: #feb386"
+                                data-modal="modal_buy" >Купить</button>
+                    </div>
+                </div><!-- Конец карточки -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="endblock"><br></div>
+
+<!--Кнопки с Аннотациями-->
+
+<!-- Ручка гелевая "Presto"-->
+<div class="overlay" data-close=""></div>
+<div id="modal_PenPresto.jpg" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Описание</h4>
+    Ручка гелевая со стираемыми чернилами.
+    <br>
+    Цвет чернил: синий.
+    <br>
+    Толщина пишущего узла: 0,5 мм.
+    <br>
+    Масса: 6 г
+    <br>
+    Размеры: 150x10x10 мм
+
+</div>
+
+<!-- Ручка шариковая Schneider "Slider Edge XB" черная-->
+<div class="overlay" data-close=""></div>
+<div id="modal_Pen2.jpg" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Описание</h4>
+    Ручка шариковая Schneider "Slider Edge XB"<br>
+    Цвет чернил: черный.<br>
+    Толщина пишущего узла: 1,4мм.<br>
+    Масса: 6 г<br>
+    Размеры: 160x10x10 мм<br>
+    Особенности: трехгранная.<br>
+    Cделано в Германии.
+</div>
+
+<!--Ручка шариковая MunHwa "MC Gold"-->
+<div class="overlay" data-close=""></div>
+<div id="modal_PenMCGold.jpg" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Описание</h4>
+    Ручка шариковая MunHwa "MC Gold"<br>
+    Цвет чернил: синий.<br>
+    Толщина пишущего узла: 0,5мм.<br>
+    Масса: 10 г<br>
+    Размеры: 150x15x10 мм<br>
+    Особенности: пластиковый корпус с гриппом.
+</div>
+
+<!--Ручка шариковая Luxor "InkGlide 100 Icy"-->
+<div class="overlay" data-close=""></div>
+<div id="modal_PenInkGlide" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Описание</h4>
+    Ручка шариковая Luxor "InkGlide 100 Icy"<br>
+    Цвет чернил: черная<br>
+    Толщина пишущего узла: 0,7 мм.<br>
+    Масса: 10 г<br>
+    Размеры: 145x15x10 мм<br>
+    Особенности: трехгранный пластиковый корпус.<br>
+    Cделано в Индии.
+ </div>
+
+<!--Набор для черчения малый, цветной (в ассортименте)-->
+<div class="overlay" data-close=""></div>
+<div id="modal_Cherchenie1" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Описание</h4>
+    Набор для черчения малый.<br>
+    В наборе: треугольник (2 шт.), линейка 15 см, транспортир.<br>
+    Чертежные принадлежности.<br>
+    Материал: пластик.<br>
+    В ассортименте.<br>
+    Масса: 26 г<br>
+    Размеры: 170x90x3 мм<br>
+    Сделано в России.
+</div>
+
+<!--Готовальня "Mars"-->
+<div class="overlay" data-close=""></div>
+<div id="modal_Cherchenie2" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Описание</h4>
+    Точный циркуль с ребристым наконечником для ровного построения. С безопасной тупоугольной иглой, сгибаемой ножкой,
+    коробкой для запасных деталей и удлинительной штангой.<br>
+    Максимальный диаметр окружности- 35 см.<br>
+    Длина циркуля - 13,5 см.<br>
+    Упаковано в пластиковый футляр.<br>
+    Масса: 94 г<br>
+    Размеры: 177x61x17 мм<br>
+    Сделано в Италии.
+</div>
+
+<!--Набор чертежный из 3 предметов MAPED для левши-->
+<div class="overlay" data-close=""></div>
+<div id="modal_Cherchenie3" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Описание</h4>
+    Набор чертежный из 3 предметов MAPED для левши.<br>
+    Линейка 30 см с непачкающими краями.<br>
+    Треугольник с углами 45°/45°, шкалами 14,5 см/14,5 см и гипотенузой- 21 см.<br>
+    Транспортир 180° с держателем: направление маркировки с разных сторон.<br>
+    Основание транспортира - 12 см.<br>
+    Упаковка - блистер с подвесом.<br>
+    Прозрачный цвет.<br>
+    Материал - неломающийся пластик.<br>
+    Масса: 84 г<br>
+    Размеры: 360x130x8 мм<br>
+    Сделано в Китае.
+</div>
+
+<!--Готовальня 4 предмета (пластик) Botti-->
+<div class="overlay" data-close=""></div>
+<div id="modal_Cherchenie4" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Описание</h4>
+    Набор чертежных инструментов в пластиковой коробке.<br>
+    Количество предметов: 4.<br>
+    Масса: 100 г<br>
+    Размеры: 170x70x22 мм<br>
+    Производство: Италия.
+</div>
+
+<!--Блокнот на гребне,100 листов, формат А5, клетка, плотность 60 гр/м2.-->
+<div class="overlay" data-close=""></div>
+<div id="modal_Copybook1" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Описание</h4>
+    Блокнот на гребне,100 листов, формат А5, клетка, плотность 60 гр/м2. Внутренний блок - высококачественная белая
+    офсетная бумага. Обложка - мелованный картон, полноцветная печать с защитным ВД лаком. Крепление - металлическая
+    евроспираль сверху.<br>
+    Страниц: 200 (Офсет)<br>
+    Масса: 166 г<br>
+    Размеры: 200x135x10 мм<br>
+    Сделано в России.
+</div>
+
+<!--Блокнот на гребне,100 листов, формат А5, клетка, плотность 60 гр/м2.-->
+<div class="overlay" data-close=""></div>
+<div id="modal_Copybook2" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Описание</h4>
+    Тетрадь общая, 48 листов, формат А5, плотность 60 гр/м2. Внутренний блок - офсетная бумага №2. Линовка блока
+    голубого цвета, клетка 5 х 5 мм, поля красные.
+    Обложка - офсетная бумагаю<br>
+    Плотность 120гр/м2.<br>
+    Крепление - скоба.<br>
+    Масса: 100 г<br>
+    Размеры: 200x165x8 мм<br>
+    Сделано в России.
+</div>
+
+<!--Тетрадь школьная "Люкс", 12 листов-->
+<div class="overlay" data-close=""></div>
+<div id="modal_Copybook3" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Описание</h4>
+    Тетрадь школьная<br>
+    Количество листов: 12<br>
+    Формат: А5+<br>
+    Внутренний блок: офсет<br>
+    Разлиновка: клетка<br>
+    С полями.<br>
+    Крепление: скрепка<br>
+    Масса: 36 г<br>
+    Размеры: 205x165x2 мм<br>
+    Сделано в России.
+</div>
+
+<!--Тетрадь 80 листов, А4, линия-->
+<div class="overlay" data-close=""></div>
+<div id="modal_Copybook4" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Аннотация</h4>
+    Тетрадь А4 формата 80 листов.Обложка: мелованный картон.<br>
+    Внутренний блок: офсет 60 гр., линия, многоуровневая перфорация.<br>
+    Скрепление: гребень.<br>
+    Тетрадь предназначена для записей, используется студентами и в офисе.<br>
+    Внутренний блок имеет универсальную перфорацию для подшивки листов в папку.
+    Масса: 324 г<br>
+    Размеры: 295x210x12 мм<br>
+    Тетради ТМ Hatber российского производства отпечатаны на современном высокотехнологичном оборудовании и
+    соответствуют стандартам качества.<br>
+    Сделано в России.
+</div>
+
+
+<!--Модальное окно для кнопки "Купить"-->
+<div class="overlay" data-close=""></div>
+<div id="modal_buy" class="dlg-modal">
+    <form name = "contact_form" onsubmit="return validate_form ( );">
+        <div class="container">
+            <h1>Купить сейчас</h1>
+            <p>Заполните данные и через несколько минут вам перезвонит наш менеджер для подтверждения заказа.</p>
+            <label><b>ФИО:</b></label>
+            <br>
+            <input type="text"
+                   placeholder="Иванов Иван Иванович"
+                   pattern="[А-яа-я]+[ ][А-яа-я]+[ ][А-яа-я]+"
+                   title="Введите кириллицой имя фамилию отчество разделяя слова пробелами."
+                   required=""
+                   class="input-field">
+            <br>
+            <label style="text-align: center;"><b>Мобильный телефон:</b></label>
+            <br>
+            <input type="tel"
+                   placeholder="+79104479731"
+                   pattern="[\+]?[0-9]{11}"
+                   required=""
+                   class="input-field">
+            <br>
+            <div class="clearfix" style="padding-top: 20px;">
+                <button type="reset"
+                        class="btn btn-dark"
+                        title = "Нажмите, чтобы очистить все поля"
+                        style="color:#feb386;">Cброс</button>
+                <button type = "submit" class="btn btn-dark"
+                        title = "Нажмите, чтобы подтвердить свои данные"
+                        style="color:#feb386;">Купить</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- Модальное окно входа -->
+<div>
+    <div class="overlay" data-close=""></div>
+    <div id="signin" class="dlg-modal">
+        <form name = "contact_form" onsubmit="return validate_form ( );">
+            <div class="container">
+                <h1 style="text-align: center">Вход</h1>
+                <!--                <hr>-->
+                <label style="padding: 10px; font-size: x-large;"><b>Email:</b></label>
+                <br>
+                <input type="email"
+                       placeholder="ilovebooks@gmail.com"
+                       title="Введите email к которому привязан ваш аккаунт"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Пароль:</b></label>
+                <br>
+                <input type="password"
+                       placeholder="password"
+                       required=""
+                       class="input-field">
+                <br>
+                <div class="clearfix" style="padding-top: 20px;">
+                    <button type="reset"
+                            class="btn btn-dark"
+                            title = "Нажмите, чтобы очистить все поля"
+                            style="color:#feb386;">Cброс</button>
+                    <button type = "submit" class="btn btn-dark"
+                            title = "Нажмите, чтобы подтвердить свои данные"
+                            style="color:#feb386;">Купить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Модальное окно регистрации -->
+<div>
+    <div class="overlay" data-close=""></div>
+    <div id="registration" class="dlg-modal" >
+        <form name = "registration" onsubmit="return complete_registration();">
+            <div class="container" >
+                <h1 style="text-align: center">Регистрация</h1>
+                <!--                <hr>-->
+                <label style="padding: 10px; font-size: x-large;"><b>ФИО:</b></label>
+                <br>
+                <input type="text"
+                       placeholder="Иванов Иван Иванович"
+                       pattern="[А-яа-я]+[ ][А-яа-я]+[ ][А-яа-я]+"
+                       title="Введите кириллицой имя фамилию отчество разделяя слова пробелами."
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Возраст</b></label>
+                <br>
+                <input type="text"
+                       placeholder="19"
+                       pattern="^(?:1[01][0-9]|120|1[4-9]|[2-9][0-9])$"
+                       required=""
+                       title="Введите возраст от 14 до 120"
+                       class="input-field">
+                <br>
+                <label><b>Номер телефона</b></label>
+                <br>
+                <input type="tel"
+                       placeholder="+79104479731"
+                       pattern="[\+]?[0-9]{11}"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Страна</b></label>
+                <br>
+                <input type="text"
+                       placeholder="Россия"
+                       pattern="[А-яа-я]+"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Город</b></label>
+                <br>
+                <input type="text"
+                       placeholder="Москва"
+                       pattern="[А-яа-я]+"
+                       required=""
+                       class="input-field">
+                <label><b>Улица</b></label>
+                <br>
+                <input type="text"
+                       placeholder="Книжная"
+                       pattern="[А-яа-я]+"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Дом</b></label>
+                <br>
+                <input type="text"
+                       placeholder="54"
+                       pattern="[0-9]+"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Квартира</b></label>
+                <br>
+                <input type="text"
+                       placeholder="33"
+                       pattern="[0-9]+"
+                       required=""
+                       class="input-field">
+                <br>
+                <label><b>Корпус/Строение (Если нет, оставьте пустым)</b></label>
+                <br>
+                <input type="text"
+                       placeholder="11"
+                       pattern="[0-9]+"
+                       class="input-field">
+                <br>
+                <div class="clearfix" style="padding-top: 20px;">
+                    <button type="reset"
+                            class="btn btn-dark"
+                            title = "Нажмите, чтобы очистить все поля"
+                            style="color:#feb386;margin-bottom: 15px;">Cброс</button>
+                    <button type = "submit" class="btn btn-dark"
+                            title = "Нажмите, чтобы подтвердить свои данные"
+                            style="color:#feb386; margin-bottom: 15px;">Купить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--JavaScript-->
+<script>var typeAnimate = 'fade';</script>
+<script src="../../static/js/popup-window-css3.function.js"></script>
+</body>
+</html>
