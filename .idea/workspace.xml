@@ -5,101 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="create database script">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_202.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_26.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookshelf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookshelf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/AboutUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/AboutUs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/Head.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Head.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/Section.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/Section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/note.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/css/popup-window.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/popup-window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/AboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/Classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/Classic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/MainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/School.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/School.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/doc/Stationery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/Stationery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Borodino.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/Borodino.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/CaptainDaughter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/CaptainDaughter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Detstvo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/Detstvo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Dubrovsky.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/Dubrovsky.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/EvgeniyOnegin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/EvgeniyOnegin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/GeroyNashegoVremeni.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/GeroyNashegoVremeni.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Karenina.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/Karenina.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/KavkazskiyPlennik.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/KavkazskiyPlennik.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Mciri.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/Mciri.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/PikovayaDama.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/PikovayaDama.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Sevastopolskie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/Sevastopolskie.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/VoinaIMir.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Classic/VoinaIMir.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/Anti-ti.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/Anti-ti.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/DevochkaSova.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/DevochkaSova.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/EraMedvedey.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/EraMedvedey.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/IUiduSRassvetom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/IUiduSRassvetom.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/IgraNaNervah.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/IgraNaNervah.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/MilashkaNaVirazhe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/MilashkaNaVirazhe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/MinisterstvoSpravedlivosti.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/MinisterstvoSpravedlivosti.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/ObshenieVsegoZhivogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/ObshenieVsegoZhivogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/Podsoznanie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/Podsoznanie.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/RealnostVremeni.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/RealnostVremeni.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/SkySkiper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/SkySkiper.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/Slushayte.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/Slushayte.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/TainikVDomeHudozhnika.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/MainPage/TainikVDomeHudozhnika.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/Azbuka.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/Azbuka.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EgeChemistry.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/EgeChemistry.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EgeHistory.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/EgeHistory.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EgePhysic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/EgePhysic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EgeRus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/EgeRus.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/English7cl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/English7cl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EnglishGolitsin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/EnglishGolitsin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EverydayEnglish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/EverydayEnglish.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/Math1cl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/Math1cl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/OrfSlovar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/OrfSlovar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/RusEnglishTranslate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/RusEnglishTranslate.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/School/Russian1cl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/School/Russian1cl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Cherchenie1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/Cherchenie1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Cherchenie3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/Cherchenie3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Cherchenie4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/Cherchenie4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Cherhenie2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/Cherhenie2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Copybook1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/Copybook1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Copybook2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/Copybook2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Copybook3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/Copybook3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Copybook4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/Copybook4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Pen2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/Pen2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/PenInkGlide.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/PenInkGlide.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/PenMCGold.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/PenMCGold.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/PenPresto.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Books/Stationery/PenPresto.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/FavIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/FavIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/UserPhoto.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/UserPhoto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/img/cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/cross.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/js/popup-window-css3.function.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/popup-window-css3.function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/doc/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/AboutUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/doc/Classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/Classic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/doc/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/MainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/doc/School.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/School.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/doc/Stationery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/Stationery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/doc/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/doc/AboutUs.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,34 +58,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaTemplates/practice19" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sereg\Documents\GitHub\BookShelf\src\main\resources\templates" />
-      <recent name="C:\Users\sereg\Documents\GitHub\BookShelf\src\main\resources\static" />
-      <recent name="C:\Users\sereg\Documents\GitHub\BookShelf\src\main\resources\templates\" />
       <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\Devops\temp\BookShelf\src\main\backend\java\bookshelf\database" />
       <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\Devops\temp\BookShelf\src\main\backend" />
     </key>
@@ -181,22 +83,11 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BookshelfApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BookshelfApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bookshelf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="bookshelf.BookshelfApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -205,6 +96,12 @@
       <module name="bookshelf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="bookshelf.BookshelfApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <envs>
+        <env name="SPRING.DATASOURCE.URL" value="jdbc:postgresql://ec2-99-80-200-225.eu-west-1.compute.amazonaws.com:5432/dcd0geggnl1tld" />
+        <env name="SPRING.DATASOURCE.USERNAME" value="gvnecpbiydiytd" />
+        <env name="SPRING.DATASOURCE.PASSWORD" value="893452c72e0abab4e1a94ac97e7914e6da156787cdca45aff8a1158cae5d02b4" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -237,7 +134,8 @@
       <workItem from="1617960167736" duration="1946000" />
       <workItem from="1617962297338" duration="2798000" />
       <workItem from="1617965168343" duration="3412000" />
-      <workItem from="1618051013390" duration="2928000" />
+      <workItem from="1618056260074" duration="249000" />
+      <workItem from="1618058926418" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="create database script">
       <created>1614948171482</created>
