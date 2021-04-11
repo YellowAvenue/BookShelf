@@ -4,33 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="create database script">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_202.xml" afterDir="false" />
+    <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_26.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookshelf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookshelf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/doc/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/AboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/doc/Classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/Classic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/doc/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/MainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/doc/School.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/School.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/doc/Stationery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/doc/Stationery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/doc/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/doc/AboutUs.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -42,14 +26,6 @@
     <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
   <component name="ProjectId" id="1pKqZ7HrE99LkmAMwOaVwzqi49X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -58,14 +34,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaTemplates/practice19" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -77,17 +51,10 @@
       <recent name="bookshelf" />
     </key>
   </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn javadoc:javadoc" />
-    </option>
-  </component>
   <component name="RunManager" selected="Spring Boot.BookshelfApplication">
     <configuration name="BookshelfApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bookshelf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="bookshelf.BookshelfApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,12 +63,6 @@
       <module name="bookshelf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="bookshelf.BookshelfApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
-      <envs>
-        <env name="SPRING.DATASOURCE.URL" value="jdbc:postgresql://ec2-99-80-200-225.eu-west-1.compute.amazonaws.com:5432/dcd0geggnl1tld" />
-        <env name="SPRING.DATASOURCE.USERNAME" value="gvnecpbiydiytd" />
-        <env name="SPRING.DATASOURCE.PASSWORD" value="893452c72e0abab4e1a94ac97e7914e6da156787cdca45aff8a1158cae5d02b4" />
-      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,20 +83,7 @@
       <workItem from="1614942185312" duration="3626000" />
       <workItem from="1614949464696" duration="389000" />
       <workItem from="1614955013503" duration="1327000" />
-      <workItem from="1615061963989" duration="25000" />
-      <workItem from="1615316316777" duration="6573000" />
-      <workItem from="1615326235733" duration="18000" />
-      <workItem from="1616666656880" duration="8668000" />
-      <workItem from="1616703076150" duration="922000" />
-      <workItem from="1617204876073" duration="6215000" />
-      <workItem from="1617225067952" duration="594000" />
-      <workItem from="1617269818604" duration="368000" />
-      <workItem from="1617271010859" duration="10344000" />
-      <workItem from="1617960167736" duration="1946000" />
-      <workItem from="1617962297338" duration="2798000" />
-      <workItem from="1617965168343" duration="3412000" />
-      <workItem from="1618056260074" duration="249000" />
-      <workItem from="1618058926418" duration="924000" />
+      <workItem from="1618166978612" duration="1576000" />
     </task>
     <task id="LOCAL-00001" summary="create database script">
       <created>1614948171482</created>
@@ -162,7 +110,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="danila" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
