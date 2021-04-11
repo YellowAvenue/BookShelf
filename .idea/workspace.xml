@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ecf1f39-e9d1-4dc0-82aa-23867b844c25/storage_v2/_src_/database/dcd0geggnl1tld.4pwaAg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Scripts/db_creator.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Scripts/db_creator.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +41,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Даниил\IdeaProjects\BookShelfDevOps\src\main\resources" />
+      <recent name="C:\Users\Даниил\IdeaProjects\BookShelfDevOps\src\main\resources\static" />
       <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\Devops\temp\BookShelf\src\main\backend\java\bookshelf\database" />
       <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\Devops\temp\BookShelf\src\main\backend" />
     </key>
@@ -131,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create database script" />
-    <option name="LAST_COMMIT_MESSAGE" value="create database script" />
+    <MESSAGE value="move folder help to resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="move folder help to resources" />
   </component>
 </project>

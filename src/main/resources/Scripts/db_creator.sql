@@ -45,3 +45,20 @@ create table orders(
                            foreign key (user_id)
                                references users(id)
 );
+
+create table products_in_order(
+    id bigserial primary key,
+    order_id bigint,
+    product_id bigint,
+    num_of_product int,
+    constraint fk_order_id
+        foreign key (order_id)
+            references orders(id),
+    constraint fk_product_id
+        foreign key (product_id)
+            references products(id)
+);
+
+alter table orders drop column product_id
+
+drop table products_in_order;
