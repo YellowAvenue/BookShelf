@@ -4,207 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_43.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_43.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_28_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_03_2021_16_05_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_03_2021_16_05__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshelf.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/database/db_creator.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/Help/Declarations" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/Help/links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/AboutUs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/Head.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/Menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/Section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/css/popup-window.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/doc/AboutUs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/doc/Classic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/doc/MainPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/doc/School.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/doc/Stationery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Borodino.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/CaptainDaughter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Detstvo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Dubrovsky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/EvgeniyOnegin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/GeroyNashegoVremeni.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Karenina.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/KavkazskiyPlennik.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Mciri.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/PikovayaDama.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/Sevastopolskie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Classic/VoinaIMir.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/Anti-ti.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/DevochkaSova.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/EraMedvedey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/IUiduSRassvetom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/IgraNaNervah.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/MilashkaNaVirazhe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/MinisterstvoSpravedlivosti.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/ObshenieVsegoZhivogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/Podsoznanie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/RealnostVremeni.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/SkySkiper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/Slushayte.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/MainPage/TainikVDomeHudozhnika.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/Azbuka.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EgeChemistry.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EgeHistory.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EgePhysic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EgeRus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/English7cl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EnglishGolitsin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/EverydayEnglish.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/Math1cl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/OrfSlovar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/RusEnglishTranslate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/School/Russian1cl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Cherchenie1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Cherchenie3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Cherchenie4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Cherhenie2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Copybook1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Copybook2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Copybook3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Copybook4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/Pen2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/PenInkGlide.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/PenMCGold.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/Books/Stationery/PenPresto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/FavIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/img/cross.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/js/popup-window-css3.function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bookshelf/backend/BookshelfApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/bookshelf/backend/BookshelfApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bookshelf/backend/BookshelfApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/BookshelfApplication.java" afterDir="false" />
+    <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="add products_in_order script in db_creator.sql">
+      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/services/ProductInOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookshelf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookshelf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/backend/java/bookshelf/controllers/tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/controllers/tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/entities/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/db_creator.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/db_creator.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bookshelf/controllers/RegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bookshelf/controllers/tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshelf/controllers/tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bookshelf/models/entities/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshelf/models/entities/Order.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="251fc534c06af5cb25d69d53d439135897e34d0d" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -219,15 +46,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Даниил\IdeaProjects\BookShelfDevOps\src\main\resources" />
+      <recent name="C:\Users\Даниил\IdeaProjects\BookShelfDevOps\src\main\resources\static" />
       <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\Devops\temp\BookShelf\src\main\backend\java\bookshelf\database" />
       <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\Devops\temp\BookShelf\src\main\backend" />
     </key>
@@ -236,60 +70,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BookshelfApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="bookshelf" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="bookshelf" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -325,6 +114,7 @@
       <workItem from="1614942185312" duration="3626000" />
       <workItem from="1614949464696" duration="389000" />
       <workItem from="1614955013503" duration="1327000" />
+      <workItem from="1618166978612" duration="1576000" />
     </task>
     <task id="LOCAL-00001" summary="create database script">
       <created>1614948171482</created>
@@ -340,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614948217958</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add products_in_order script in db_creator.sql">
+      <created>1618173585463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618173585463</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create database script" />
-    <option name="LAST_COMMIT_MESSAGE" value="create database script" />
+    <MESSAGE value="move folder help to resources" />
+    <MESSAGE value="add products_in_order script in db_creator.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="add products_in_order script in db_creator.sql" />
   </component>
 </project>

@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  background: black;
+}
+
+/*img*/
+.user-block{
+  float: right;
+  position: absolute;
+  right: 4%;
+  top: 4%;
+}
+.user-block img{
+  height: 120px;
+  width: 120px;
+}
+
+.user-block .user-button{
+  position: relative;
+  /*float:bottom;*/
+  display: inline-block;
+}
+
+.title{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 400%;
+  letter-spacing: 2px;
+  font-stretch: extra-expanded;
+  padding-right: 0;
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+  z-index: 1;
+}
+.underTitle{
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  letter-spacing: 5px;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 550px) {
+  .title{
+    font-size:300%;
+  }
+  .underTitle{
+    letter-spacing: 2px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .user-block img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .user-block img{
+    height: 90px;
+    width: 90px;
+  }
+}
