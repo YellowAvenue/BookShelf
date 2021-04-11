@@ -15,7 +15,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="bookshelf" />
+          <factory-entry name="bookshelf" value="6ecf1f39-e9d1-4dc0-82aa-23867b844c25" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
