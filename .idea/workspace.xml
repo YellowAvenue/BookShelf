@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="create database script">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/controllers/tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/entities/Maker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/entities/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/entities/Product_type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/repository/MakerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/repository/OrderRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/repository/ProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/repository/Product_typeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/repository/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/services/MakerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/services/Product_typeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookshelf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookshelf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Scripts/db_creator.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Scripts/db_creator.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Scripts/product.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Scripts/product.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +47,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaTemplates/practice19" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -116,6 +101,11 @@
       <module name="bookshelf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="bookshelf.BookshelfApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="SPRING.DATASOURCE.URL" value="jdbc:postgresql://ec2-99-80-200-225.eu-west-1.compute.amazonaws.com:5432/dcd0geggnl1tld" />
+        <env name="SPRING.DATASOURCE.USERNAME" value="gvnecpbiydiytd" />
+        <env name="SPRING.DATASOURCE.PASSWORD" value="893452c72e0abab4e1a94ac97e7914e6da156787cdca45aff8a1158cae5d02b4" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,6 +138,8 @@
       <workItem from="1617960167736" duration="1946000" />
       <workItem from="1617962297338" duration="2798000" />
       <workItem from="1617965168343" duration="3412000" />
+      <workItem from="1618051360927" duration="1339000" />
+      <workItem from="1618235463476" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="create database script">
       <created>1614948171482</created>
