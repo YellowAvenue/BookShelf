@@ -4,39 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="add products_in_order script in db_creator.sql">
-      <change afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/services/ProductInOrderService.java" afterDir="false" />
+    <list default="true" id="cc3339af-2d2c-4901-a72e-3525b7e12364" name="Default Changelist" comment="create database script">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_18.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookshelf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookshelf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/backend/java/bookshelf/controllers/tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/controllers/tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/backend/java/bookshelf/models/entities/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Scripts/db_creator.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Scripts/db_creator.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bookshelf/controllers/RegistrationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bookshelf/controllers/tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshelf/controllers/tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bookshelf/models/entities/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bookshelf/models/entities/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="251fc534c06af5cb25d69d53d439135897e34d0d" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/backend/java/bookshelf/BookshelfApplication.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1pKqZ7HrE99LkmAMwOaVwzqi49X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,22 +38,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Даниил\IdeaProjects\BookShelfDevOps\src\main\resources" />
-      <recent name="C:\Users\Даниил\IdeaProjects\BookShelfDevOps\src\main\resources\static" />
       <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\Devops\temp\BookShelf\src\main\backend\java\bookshelf\database" />
       <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\Devops\temp\BookShelf\src\main\backend" />
     </key>
@@ -70,15 +57,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BookshelfApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,6 +79,12 @@
       <module name="bookshelf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="bookshelf.BookshelfApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <envs>
+        <env name="SPRING.DATASOURCE.URL" value="jdbc:postgresql://ec2-99-80-200-225.eu-west-1.compute.amazonaws.com:5432/dcd0geggnl1tld" />
+        <env name="SPRING.DATASOURCE.USERNAME" value="gvnecpbiydiytd" />
+        <env name="SPRING.DATASOURCE.PASSWORD" value="893452c72e0abab4e1a94ac97e7914e6da156787cdca45aff8a1158cae5d02b4" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,7 +105,6 @@
       <workItem from="1614942185312" duration="3626000" />
       <workItem from="1614949464696" duration="389000" />
       <workItem from="1614955013503" duration="1327000" />
-      <workItem from="1618166978612" duration="1576000" />
     </task>
     <task id="LOCAL-00001" summary="create database script">
       <created>1614948171482</created>
@@ -130,14 +120,7 @@
       <option name="project" value="LOCAL" />
       <updated>1614948217958</updated>
     </task>
-    <task id="LOCAL-00003" summary="add products_in_order script in db_creator.sql">
-      <created>1618173585463</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1618173585463</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,8 +152,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create database script" />
-    <MESSAGE value="move folder help to resources" />
-    <MESSAGE value="add products_in_order script in db_creator.sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="add products_in_order script in db_creator.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="create database script" />
   </component>
 </project>
