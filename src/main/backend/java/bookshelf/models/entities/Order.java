@@ -22,7 +22,5 @@ public class Order {
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id")
     private User user;
-    @OneToMany(mappedBy = "id", fetch = FetchType.LAZY)
-    private List<Product> products;
     private Date orders_time;
 }
