@@ -1,5 +1,6 @@
 package bookshelf.models.entities;
 
+import bookshelf.models.dto.UserDto;
 import lombok.*;
 import org.springframework.stereotype.Component;
 
