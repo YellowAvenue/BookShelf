@@ -1,9 +1,9 @@
 # BookShelf
-##Table of contents
+## Table of contents
 - [About the project](#about-the-project)
 - [Technology stack](#techonology-stack)
 - [Docker](#docker)
-##About the project
+## About the project
 BookShelf it is online bookstore.  
 Working branch -> dev
 
@@ -13,7 +13,7 @@ __Developers:__
 3. Ladygin S.A.
 ---
 ---  
-##Techonology Stack
+## Techonology Stack
 - Java 15
 - Postgres SQL
 - Vue.js
