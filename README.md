@@ -1,9 +1,9 @@
 # BookShelf
-##Table of contents
+## Table of contents
 - [About the project](#about-the-project)
 - [Technology stack](#techonology-stack)
 - [Docker](#docker)
-##About the project
+## About the project
 BookShelf it is online bookstore.  
 Working branch -> dev
 
@@ -13,7 +13,7 @@ __Developers:__
 3. Ladygin S.A.
 ---
 ---  
-##Techonology Stack
+## Techonology Stack
 - Java 15
 - Postgres SQL
 - Vue.js
@@ -30,7 +30,7 @@ __Developers:__
 * spring-boot-starter-test `v. 2.4.4`
 * maven-javadoc-plugin `v. 3.2.0`
 * lombok `v. 1.18.20`
- ### Plugins:
+### Plugins:
 * spring-boot-maven-plugin
 *  maven-javadoc-plugin `v. 3.2.0`
 ### Vue dependences
@@ -40,10 +40,9 @@ __Developers:__
 - vue-router: "^4.0.0-0"
 ---
 For run: maven clean install
-##Docker  
+## Docker  
 
 Fill .env file with necessary variables.
 
 To start app use command:  
 `sh start.sh`
----
