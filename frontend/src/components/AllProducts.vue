@@ -20,6 +20,7 @@ export default {
     getProducts: function (){
       axios.get(this.url.allProducts)
           .then((response) => {
+            console.log("adsdfadfs")
             console.log(response.data)
             this.products = response.data
             console.log(this.products)

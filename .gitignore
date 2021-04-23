@@ -33,3 +33,6 @@ hs_err_pid*
 
 ###VUE###
 *.node_modules/
+
+###Env###
+.env
