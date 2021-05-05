@@ -1,7 +1,9 @@
 package bookshelf.models.services;
 
+import bookshelf.exceptions.ProductNotFoundException;
 import bookshelf.models.dto.DtoConverter;
 import bookshelf.models.dto.ProductDto;
+import bookshelf.models.entities.Product;
 import bookshelf.models.repository.ProductRepo;
 import org.springframework.stereotype.Service;
 
@@ -30,5 +32,11 @@ public class ProductService {
      */
     public List<ProductDto> findAll(){
         return DtoConverter.productListToDtos(productRepo.findAll());
+    }
+
+    public ProductDto findProductById(Long id){
+        return DtoConverter.productToDto(productRepo
+                .findById(id)
+                .orElseThrow(() -> new ProductNotFoundException(id)));
     }
 }
