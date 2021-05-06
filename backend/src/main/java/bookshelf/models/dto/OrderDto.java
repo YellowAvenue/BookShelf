@@ -16,6 +16,7 @@ public class OrderDto {
     private Date orders_time;
 
     public OrderDto(Order order){
+        this.id = order.getId();
         this.orders_time = order.getOrders_time();
         this.user = DtoConverter.userToDto(order.getUser());
     }

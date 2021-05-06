@@ -9,7 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 public class ProductDto {
-    private int id;
+    private long id;
     private String name;
     private int cost;
     private String img_path;
@@ -19,6 +19,7 @@ public class ProductDto {
     private Product_typeDto product_type;
 
     public ProductDto(Product product){
+        this.id = product.getId();
         this.name = product.getName();
         this.cost = product.getCost();
         this.img_path = product.getImg_path();

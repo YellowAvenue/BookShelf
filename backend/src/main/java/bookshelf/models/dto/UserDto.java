@@ -17,6 +17,7 @@ public class UserDto {
     private boolean have_account;
 
     public UserDto(User user){
+        this.id = user.getId();
         this.name = user.getName();
         this.age = user.getAge();
         this.phone_number = user.getPhone_number();

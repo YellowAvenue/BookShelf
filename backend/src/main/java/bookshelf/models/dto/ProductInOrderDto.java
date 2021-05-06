@@ -15,6 +15,7 @@ public class ProductInOrderDto {
     private int num_of_product;
 
     public ProductInOrderDto(ProductInOrder productInOrder){
+        this.id = productInOrder.getId();
         this.order = DtoConverter.orderToDto(productInOrder.getOrder());
         this.product = DtoConverter.productToDto(productInOrder.getProduct());
         this.num_of_product = productInOrder.getNum_of_product();
