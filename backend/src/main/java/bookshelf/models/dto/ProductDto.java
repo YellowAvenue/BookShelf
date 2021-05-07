@@ -24,6 +24,7 @@ public class ProductDto {
         this.cost = product.getCost();
         this.img_path = product.getImg_path();
         this.description = product.getDescription();
+        this.short_description = product.getShort_description();
         this.maker = DtoConverter.makerToDto(product.getMaker());
         this.product_type = DtoConverter.product_typeToDto(product.getProduct_type());
     }

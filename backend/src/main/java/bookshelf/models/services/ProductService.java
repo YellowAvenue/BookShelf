@@ -7,6 +7,7 @@ import bookshelf.models.entities.Product;
 import bookshelf.models.repository.ProductRepo;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -38,5 +39,13 @@ public class ProductService {
         return DtoConverter.productToDto(productRepo
                 .findById(id)
                 .orElseThrow(() -> new ProductNotFoundException(id)));
+    }
+
+    public List<ProductDto> getListProductsById(List<Long> idList){
+        List<ProductDto> productDtos = new ArrayList<>();
+        for(Long id : idList){
+            productDtos.add(findProductById(id));
+        }
+        return productDtos;
     }
 }
