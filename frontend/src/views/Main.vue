@@ -1,43 +1,45 @@
 <template>
-  <div class = "lock" style="margin: 0; padding: 0;">
-    <header>
-      <div class="user-block">
-        <button type="button"
-                class="btn user-button"
-                style="background-color: #feb386; color: white;"
-                data-modal=signin>Войти</button>
-        <button type="button"
-                class="btn user-button"
-                style="background-color: #feb386; color: white;"
-                data-modal="registration">Регистрация</button>
-        <img src="/img/UserPhoto.png" alt="UserPhoto">
-      </div>
-      <div class = "title">Bookshelf</div>
-      <div class="underTitle">Интернет-магазин</div>
-      <div>
-        <ul class="menu-main">
-          <li><a href="/mainPage" class="current" style="text-decoration: none;"> Главное</a></li>
-          <li><a href="/classic" style="text-decoration: none;">Классика</a></li>
-          <li><a href="/stationery" style="text-decoration: none;">Канцтовары</a></li>
-          <li><a href="/school" style="text-decoration: none;">К школе</a></li>
-          <li><a href="/aboutUs" style="text-decoration: none;">О нас</a></li>
-        </ul>
-      </div>
-    </header>
+  <div class ="body">
+    <Header></Header>
+  <!-- Раздел новинок -->
+  <NewsSection></NewsSection>
+  <!--Раздел главных скидок-->
+  <SalesSection></SalesSection>
+  <!--Книги, способные перевернуть ваш разум...-->
+  <CrazyBookSection></CrazyBookSection>
 
+    <div class="endblock"><br></div>
+  <!--Модальное окно для кнопки "Купить"-->
+  <BuyModal></BuyModal>
+  <!-- Модальное окно входа -->
+  <SingInModal></SingInModal>
+  <!-- Модальное окно регистрации -->
+  <RegistrationModal></RegistrationModal>
   </div>
-  <Id1></Id1>
 </template>
 
 <script>
-import Id1 from "@/components/books/Id1";
-import '@/assets/sass/head.scss'
-// import '@/assets/sass/menu.scss'
+import '@/assets/sass/head.scss';
+import '@/assets/sass/menu.scss';
+import '@/assets/sass/section.scss';
+import '@/assets/sass/popup-window.scss';
+import {popUpWindow} from '@/components/mixins/popUpWindow';
+import NewsSection from "@/components/sections/main/NewsSection";
+import SalesSection from "@/components/sections/main/SalesSection";
+import CrazyBookSection from "@/components/sections/main/CrazyBookSection";
+import BuyModal from "@/components/modals/BuyModal"
+import SingInModal from "@/components/modals/SingInModal";
+import RegistrationModal from "@/components/modals/RegistrationModal";
+import Header from "@/components/Header";
+
 export default {
-  name: "Main.vue",
-  components:{
-    Id1
+  name: "MainPage",
+  components: {Header, RegistrationModal, SingInModal, BuyModal, CrazyBookSection, SalesSection, NewsSection},
+  mixins: [popUpWindow],
+  mounted() {
+    popUpWindow.method.popUp();
   }
+
 }
 </script>
 
