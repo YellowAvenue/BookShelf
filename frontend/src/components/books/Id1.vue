@@ -26,6 +26,9 @@
             </div>
           </div><!-- Конец карточки -->
         </div>
+
+
+
         <div class="col-md-6 col-xl-3">
           <div class="card mx-auto mb-4 cardTransform" style="max-width: 300px; border: none">
             <!-- Изображение -->
@@ -80,6 +83,7 @@
       </div>
     </div>
   </div>
+
 </div>
 </template>
 
@@ -127,10 +131,10 @@ export default {
       // product0 = this.products[0]
     }
   },
-  created: function (){
-    // this.getProduct();
-    this.getProductListById()
-  }
+  // created: function (){
+  //   // this.getProduct();
+  //   this.getProductListById()
+  // }
 }
 </script>
 

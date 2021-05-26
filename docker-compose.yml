@@ -11,9 +11,9 @@ services:
       - SPRING_DATASOURCE_PASSWORD=${SPRING_DATASOURCE_PASSWORD}
       - SPRING_JPA_HIBERNATE_DDL_AUTO=${SPRING_JPA_HIBERNATE_DDL_AUTO}
     env_file:
-      - .env
+      - env.env
     ports:
-      - ${BACKEND_PORT}:${BACKEND_PORT}
+      - 8080:8080
   frontend:
     container_name: frontend
     build: ./frontend
@@ -21,4 +21,4 @@ services:
     depends_on:
       - backend
     ports:
-      - ${FRONTEND_PORT}:${FRONTEND_PORT}
+      - 3000:3000

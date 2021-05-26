@@ -49,7 +49,7 @@
               <h4 class="card-title" style="margin-bottom:.5rem">Подсознание может<br>всё</h4>
               <h5>Джон Кехо</h5>
               <p class="card-text hiddenText">Автор этой книги в уединении среди лесов канадской провинции Британская Колумбия три года сосредоточенно</p>
-              <h6>Цена: 362 <strike>452</strike> руб.</h6>
+              <h6>Цена: 362 руб.</h6>
               <button type="button" class="btn btn-dark" style="color: #feb386"
                       data-modal="modal_Podsoznanie">Подробнее</button>
               <button type="button" class="btn btn-dark" style="color: #feb386"

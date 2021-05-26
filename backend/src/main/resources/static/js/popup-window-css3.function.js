@@ -1,9 +1,9 @@
 //Всплывающее окно
-;(function() {
+(function() {
 
 	var overlay	= document.querySelector('.overlay'),
 		mOpen	= document.querySelectorAll('[data-modal]'),
-		mClose	= document.querySelectorAll('[data-close]')
+		mClose	= document.querySelectorAll('[data-close]'),
 		mStatus	= false;// флаг всплывающего окна: false - окно закрыто, true - открыто
 	var body = document.querySelector("body");
 

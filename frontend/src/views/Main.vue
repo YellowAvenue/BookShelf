@@ -1,13 +1,21 @@
-<template>
+<template #default>
   <div class ="body">
     <Header></Header>
-  <!-- Раздел новинок -->
-  <NewsSection></NewsSection>
-  <!--Раздел главных скидок-->
-  <SalesSection></SalesSection>
-  <!--Книги, способные перевернуть ваш разум...-->
-  <CrazyBookSection></CrazyBookSection>
-
+    <suspense>
+      <template #default>
+        <!-- Раздел новинок -->
+        <NewsSection></NewsSection>
+      </template>
+      <template #fallback>
+        <div>
+          Loading...
+        </div>
+      </template>
+    </suspense>
+      <!--Раздел главных скидок-->
+      <SalesSection></SalesSection>
+      <!--Книги, способные перевернуть ваш разум...-->
+      <CrazyBookSection></CrazyBookSection>
     <div class="endblock"><br></div>
   <!--Модальное окно для кнопки "Купить"-->
   <BuyModal></BuyModal>
@@ -17,7 +25,6 @@
   <RegistrationModal></RegistrationModal>
   </div>
 </template>
-
 <script>
 import '@/assets/sass/head.scss';
 import '@/assets/sass/menu.scss';

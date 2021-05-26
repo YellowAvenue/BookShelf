@@ -14,7 +14,7 @@
               <h4 class="card-title" style="margin-bottom:.5rem">Небесный<br>шкипер</h4>
               <h5>Антон Демченко</h5>
               <p class="card-text hiddenText">Удача сопутствует сильным. И бывший меллингский беспризорник Рик, а ныне шкипер собственной возду</p>
-              <h6>Цена: 569 <strike>990</strike> руб.</h6>
+              <h6>Цена: 569 руб.</h6>
               <button type="button" class="btn btn-dark" style="color: #feb386"
                       data-modal="modal_SkySkiper">Подробнее</button>
               <button type="button" class="btn btn-dark" style="color: #feb386"
@@ -31,7 +31,7 @@
               <h4 class="card-title" style="margin-bottom:.5rem">Тайник в доме хужожника</h4>
               <h5>Томара Михеева</h5>
               <p class="card-text hiddenText">Семья Крымовых приезжает на лето к бабушке. Её дом с башенками и Комнатой-без-углов - не просто дача, а без пяти минут филиал</p>
-              <h6>Цена: 424 <strike>848</strike> руб</h6>
+              <h6>Цена: 424 руб</h6>
               <button type="button" class="btn btn-dark" style="color: #feb386"
                       data-modal="modal_TainikVDomeHudozhnika">Подробнее</button>
               <button type="button" class="btn btn-dark" style="color: #feb386"
@@ -48,7 +48,7 @@
               <h4 class="card-title" style="margin-bottom:.5rem">Я уйду с <br>Рассветом</h4>
               <h5>Холлоуэй Меган</h5>
               <p class="card-text hiddenText">Август 1944 года. Валлиец Риз Гравенор меряет шагами улицы только что освобожденного от фашист</p>
-              <h6>Цена: 124 <strike>599</strike> руб.</h6>
+              <h6>Цена: 124 руб.</h6>
               <button type="button" class="btn btn-dark" style="color: #feb386"
                       data-modal="modal_IUiduSRassvetom">Подробнее</button>
               <button type="button" class="btn btn-dark" style="color: #feb386"
@@ -65,7 +65,7 @@
               <h4 class="card-title" style="margin-bottom:.5rem">Министерство справедливости</h4>
               <h5>Лев Гурский</h5>
               <p class="card-text hiddenText">Когда ржавые скрепы рассыпались и подлый мир канул в небытие, его вчерашние хозяева и их верные слуги шустро</p>
-              <h6>Цена: 585 <strike>856</strike> руб.</h6>
+              <h6>Цена: 585 руб.</h6>
               <button type="button" class="btn btn-dark" style="color: #feb386"
                       data-modal="modal_MinisterstvoSpravedlivosti" >Подробнее</button>
               <button type="button" class="btn btn-dark" style="color: #feb386"
