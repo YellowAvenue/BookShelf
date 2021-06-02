@@ -1,6 +1,7 @@
 package bookshelf.controllers;
 
 import bookshelf.models.dto.ProductDto;
+import bookshelf.models.dto.ProductSectionIdDTO;
 import bookshelf.models.services.ProductService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -26,7 +27,7 @@ public class ProductController {
 
     @PostMapping("/products/getProductsSection")
     @ResponseBody
-    public List<ProductDto> getListProductsById(@RequestBody List<Long> idList){
-        return productService.getListProductsById(idList);
+    public List<ProductDto> getListProductsById(@RequestBody ProductSectionIdDTO productsId){
+        return productService.getListProductsById(productsId.getId());
     }
 }

@@ -18,7 +18,7 @@
               <p class="card-text hiddenText">{{products[0].short_description}}</p>
               <h6>Цена: {{products[0].cost}} руб.</h6>
               <button type="button" class="btn btn-dark" style="color: #feb386"
-                      data-modal="modal_DevochkaSova">Подробнее</button>
+                      :data-modal="productsId[0]">Подробнее</button>
               <button type="button" class="btn btn-dark" style="color: #feb386"
                       data-modal="modal_buy">Купить</button>
             </div>
@@ -36,7 +36,7 @@
               <p class="card-text hiddenText">{{products[1].short_description}}</p>
               <h6>Цена: {{products[1].cost}} руб</h6>
               <button type="button" class="btn btn-dark" style="color: #feb386"
-                      data-modal="modal_EraMedvedey">Подробнее</button>
+                      :data-modal="productsId[1]">Подробнее</button>
               <button type="button" class="btn btn-dark" style="color: #feb386"
                       data-modal="modal_buy">Купить</button>
             </div>
@@ -53,7 +53,7 @@
               <p class="card-text hiddenText">{{products[2].short_description}}</p>
               <h6>Цена: {{products[2].cost}} руб.</h6>
               <button type="button" class="btn btn-dark" style="color: #feb386"
-                      data-modal="modal_ObshenieVsegoZhivogo">Подробнее</button>
+                      :data-modal="productsId[2]">Подробнее</button>
               <button type="button" class="btn btn-dark" style="color: #feb386"
                       data-modal="modal_buy">Купить</button>
             </div>
@@ -70,7 +70,7 @@
               <p class="card-text hiddenText">{{products[3].short_description}}</p>
               <h6>Цена: {{products[3].cost}} руб.</h6>
               <button type="button" class="btn btn-dark" style="color: #feb386"
-                      data-modal="modal_MilashkaNaVirazhe" >Подробнее</button>
+                      :data-modal="productsId[3]" >Подробнее</button>
               <button type="button" class="btn btn-dark" style="color: #feb386"
                       data-modal="modal_buy" >Купить</button>
             </div>
@@ -81,48 +81,62 @@
   </div>
 
 <!--  Кнопки с Аннотациями-->
-
-  <!-- Общение всего живого-->
+<!--  TODO  показывает окна первого компонента-->
   <div class="overlay" data-close=""></div>
-  <div id="modal_ObshenieVsegoZhivogo" class="dlg-modal">
+  <div :id="productsId[0]"  class="dlg-modal">
     <span class="closer" data-close=""></span>
     <h4>Аннотация</h4>
     {{products[0].description}}
-     </div>
+  </div>
 
-  <!-- Эра медведей-->
   <div class="overlay" data-close=""></div>
-  <div id="modal_EraMedvedey" class="dlg-modal">
+  <div :id="productsId[1]" class="dlg-modal">
     <span class="closer" data-close=""></span>
     <h4>Аннотация</h4>
     {{products[1].description}}
   </div>
 
-  <!-- Милашка на проводе-->
   <div class="overlay" data-close=""></div>
-  <div id="modal_MilashkaNaVirazhe" class="dlg-modal">
+  <div :id="productsId[2]" class="dlg-modal">
     <span class="closer" data-close=""></span>
     <h4>Аннотация</h4>
-    {{products[0].description}}
-      </div>
+    {{products[2].description}}
+  </div>
 
+  <div class="overlay" data-close=""></div>
+  <div :id="productsId[3]" class="dlg-modal">
+    <span class="closer" data-close=""></span>
+    <h4>Аннотация</h4>
+    {{products[3].description}}
+      </div>
 </template>
 
 <script>
 import axios from "axios";
+import '@/assets/sass/popup-window.scss';
+import {popUpWindow} from '@/components/mixins/popUpWindow';
 
 export default {
-  async setup(){
+  props: {
+    productsId: Array
+  },
+  async setup(productsId){
+    console.log(productsId)
     let products = await
-        axios.post("http://localhost:8080/api/products/getProductsSection", ['1','2','3','4'])
+        axios.post("http://localhost:8080/api/products/getProductsSection", productsId)
             .then(response => {
               return response.data
             });
     return{
       products
     }
-  },
-  name: "NewsSection.vue",
+  }
+  ,
+  name: "Section.vue",
+  mounted() {
+    popUpWindow.method.popUp();
+  }
+
 }
 </script>
 
