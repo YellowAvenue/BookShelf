@@ -1,7 +1,6 @@
 <template>
   <div class="book-block">
-    <h2 class="block-title">Новинки</h2>
-    <div class = "delimetr"></div>
+
     <div class="container" style="padding-top: 40px;">
 
       <!--Карточки-->

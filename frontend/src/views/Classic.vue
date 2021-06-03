@@ -4,14 +4,13 @@
     <Header></Header>
 
     <div class="book-block">
-    <h2 class="block-title">Новинки</h2>
+    <h2 class="block-title">Пушкин - солнце русской поэзии</h2>
     <div class = "delimetr"></div>
     </div>
 
     <suspense>
       <template #default>
-        <!-- Раздел новинок -->
-        <Section :products-id="newsSectionId"></Section>
+        <Section :products-id="pushkinSectionId"></Section>
       </template>
       <template #fallback>
         <div>
@@ -21,14 +20,13 @@
     </suspense>
 
     <div class="book-block">
-      <h2 class="block-title">Сумашедшие скидки</h2>
-      <div class = "delimetr"></div>
+    <h2 class="block-title">Сколько ума в стихотворениях Лермонтова!</h2>
+    <div class = "delimetr"></div>
     </div>
 
     <suspense>
       <template #default>
-        <!--Раздел главных скидок-->
-        <Section :products-id="salesSectionId"></Section>
+        <Section :products-id="lermontovSectionId"></Section>
       </template>
       <template #fallback>
         <div>
@@ -38,14 +36,13 @@
     </suspense>
 
     <div class="book-block">
-      <h2 class="block-title">Книги, способные перевернуть ваш разум...</h2>
-      <div class = "delimetr"></div>
+    <h2 class="block-title">Словами великого классика - Л.Н.Толстого</h2>
+    <div class = "delimetr"></div>
     </div>
 
     <suspense>
       <template #default>
-        <!--Книги, способные перевернуть ваш разум...-->
-        <Section :products-id="crazyBookSectionId"></Section>
+        <Section :products-id="tolstoySectionId"></Section>
       </template>
       <template #fallback>
         <div>
@@ -55,14 +52,15 @@
     </suspense>
 
     <div class="endblock"><br></div>
-  <!--Модальное окно для кнопки "Купить"-->
-  <BuyModal></BuyModal>
-  <!-- Модальное окно входа -->
-  <SingInModal></SingInModal>
-  <!-- Модальное окно регистрации -->
-  <RegistrationModal></RegistrationModal>
+    <!--Модальное окно для кнопки "Купить"-->
+    <BuyModal></BuyModal>
+    <!-- Модальное окно входа -->
+    <SingInModal></SingInModal>
+    <!-- Модальное окно регистрации -->
+    <RegistrationModal></RegistrationModal>
   </div>
 </template>
+
 <script>
 import '@/assets/sass/head.scss';
 import '@/assets/sass/menu.scss';
@@ -74,22 +72,20 @@ import BuyModal from "@/components/modals/BuyModal"
 import SingInModal from "@/components/modals/SingInModal";
 import RegistrationModal from "@/components/modals/RegistrationModal";
 import Header from "@/components/Header";
-
 export default {
-  name: "MainPage",
+  name: "Classic",
   components: {Header, RegistrationModal, SingInModal, BuyModal, Section},
   mixins: [popUpWindow],
   data(){
     return{
-      newsSectionId:[1,2,3,4],
-      salesSectionId: [5,6,7,8],
-      crazyBookSectionId: [9,10,11,12]
+      pushkinSectionId:[13,14,15,16],
+      lermontovSectionId: [17,18,19,20],
+      tolstoySectionId: [21,22,23,24]
     }
   },
   mounted() {
     popUpWindow.method.popUp();
   }
-
 }
 </script>
 
