@@ -30,3 +30,9 @@ hs_err_pid*
 
 ###Bootstrap###
 *bootstrap*
+
+###VUE###
+*.node_modules/
+
+###Env###
+.env
