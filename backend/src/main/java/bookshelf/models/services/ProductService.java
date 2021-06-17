@@ -1,6 +1,6 @@
 package bookshelf.models.services;
 
-import bookshelf.exceptions.ProductNotFoundException;
+import bookshelf.exceptions.EntityNotFoundException;
 import bookshelf.models.dto.DtoConverter;
 import bookshelf.models.dto.ProductDto;
 import bookshelf.models.entities.Product;
@@ -38,7 +38,7 @@ public class ProductService {
     public ProductDto findProductById(Long id){
         return DtoConverter.productToDto(productRepo
                 .findById(id)
-                .orElseThrow(() -> new ProductNotFoundException(id)));
+                .orElseThrow(() -> new EntityNotFoundException(String.format("Product %d not found", id))));
     }
 
     public List<ProductDto> getListProductsById(List<Long> idList){
