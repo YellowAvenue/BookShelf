@@ -1,6 +1,6 @@
 package bookshelf.service
 
-import bookshelf.ServiceBaseTest
+import kbookshelf.ServiceBaseTest
 
 class ProductServiceTest(
 ) : ServiceBaseTest({

@@ -1,8 +1,6 @@
 package bookshelf.service
 
 import io.kotest.core.spec.style.WordSpec
-import io.kotest.extensions.spring.SpringExtension
-import io.kotest.matchers.should
 import io.kotest.matchers.shouldBe
 
 class Test : WordSpec() {
