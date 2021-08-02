@@ -16,10 +16,6 @@ jobs:
       - checkout
       # Use mvn clean and package as the standard maven build phase
       - run:
-          name: change directory to backend
-          command: cd backend/
-
-      - run:
           name: Build
           command: mvn -B -DskipTests clean package
       # Then run your tests!
