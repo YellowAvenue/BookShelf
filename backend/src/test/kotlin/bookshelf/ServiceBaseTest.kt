@@ -23,9 +23,9 @@ abstract class ServiceBaseTest(body: ServiceBaseTest.() -> Unit) : StringSpec(bo
     lateinit var loggingAspect: LoggingAspect
 }
 
-//@ComponentScan(
-//        basePackages = ["bookshelf.models.services"]
-//)
+@ComponentScan(
+        basePackages = ["bookshelf.models.services"]
+)
 @TestPropertySource("classpath:application-test.yaml")
 open class MyTestConfiguration{
     @Bean
