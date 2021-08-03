@@ -1,4 +1,5 @@
 # BookShelf
+[![CircleCI](https://circleci.com/gh/kimoror/BookShelf/tree/dev.svg?style=svg)](https://circleci.com/gh/kimoror/BookShelf/tree/dev)
 ## Table of contents
 - [About the project](#about-the-project)
 - [Technology stack](#techonology-stack)
